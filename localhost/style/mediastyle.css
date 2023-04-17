@@ -1,0 +1,300 @@
+/*ГЛАВНАЯ СТРАНИЦА*/
+/*MEDIA-ЗАПРОС ДЛЯ ИЗОБРАЖЕНИЙ (акция)*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.stocks img {width: 150px; padding: 10px;}   
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.stocks img {width: 200px; padding: 10px;}   
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+.stocks img {
+width: 250px;
+padding: 10px; }   
+}
+
+/*MEDIA-ЗАПРОС ДЛЯ КАТЕГОРИЙ (кнопки: серьги, кулоны и т.д.)*/
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+.catalog {
+width: 130px;
+height: 50px; }  
+}
+
+/*MEDIA-ЗАПРОС ДЛЯ ИКОНОК С ПРЕИМУЩЕСТВАМИ*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.plusImg {
+width: 150px;  
+height: 100px;
+padding: 10px; }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.plusImg {
+width: 160px;  
+height: 150px;
+padding: 10px; }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+.plusImg {
+width: 200px;  
+height: 150px;
+padding: 10px; }
+}
+
+/*MEDIA-ЗАПРОС ДЛЯ СЛАЙДЕРА*/
+@media screen and (min-width: 200px) and (max-width: 800px) {  
+#slider_bl .slider-wrapper {
+width: 200px;
+} 
+
+#slider_bl 
+#slide1:checked~.slider-prev-next-control label:nth-child(2),
+#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3),
+#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4),
+#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5),
+#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1) {
+position: absolute;
+margin-left: 170px;
+width: 25px;
+height: 25px;
+}
+
+.infoH1 {
+color: #ffffff; 
+font-family: 'El Messiri', sans-serif;   
+}
+
+.infoP {
+font-family: 'El Messiri', sans-serif;  
+font-size: 15px;    
+width: 300px;
+margin-left: 20px;
+}
+
+.infoH1 {
+font-family: 'El Messiri', sans-serif;  
+font-size: 25px;    
+width: 300px;
+margin-left: 20px;
+margin-right: 100px; }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {  
+#slider_bl .slider-wrapper {
+width: 300px;
+} 
+
+#slider_bl 
+#slide1:checked~.slider-prev-next-control label:nth-child(2),
+#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3),
+#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4),
+#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5),
+#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1) {
+position: absolute;
+margin-left: 270px;
+width: 25px;
+height: 25px;
+}
+
+.infoH1 {
+color: #ffffff; 
+font-family: 'El Messiri', sans-serif;   
+}
+
+.infoP {
+font-family: 'El Messiri', sans-serif;  
+font-size: 15px;    
+width: 300px;
+margin-left: 20px;
+}
+
+.infoH1 {
+font-family: 'El Messiri', sans-serif;  
+font-size: 25px;    
+width: 300px;
+margin-left: 20px;
+margin-right: 100px; }   
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {  
+#slider_bl .slider-wrapper {
+width: 400px;
+} 
+
+#slider_bl 
+#slide1:checked~.slider-prev-next-control label:nth-child(2),
+#slider_bl #slide2:checked~.slider-prev-next-control label:nth-child(3),
+#slider_bl #slide3:checked~.slider-prev-next-control label:nth-child(4),
+#slider_bl #slide4:checked~.slider-prev-next-control label:nth-child(5),
+#slider_bl #slide5:checked~.slider-prev-next-control label:nth-child(1) {
+position: absolute;
+margin-left: 370px;
+width: 25px;
+height: 25px;
+}
+
+.infoH1 {
+color: #ffffff; 
+font-family: 'El Messiri', sans-serif;   
+}
+
+.infoP {
+font-family: 'El Messiri', sans-serif;  
+font-size: 18px;    
+width: 400px;
+margin-left: 20px;
+margin-right: 100px;
+}
+
+.infoH1 {
+font-family: 'El Messiri', sans-serif;  
+font-size: 25px;    
+width: 400px;
+margin-left: 20px;
+margin-right: 100px; }  
+}
+
+/*СТРАНИЦА О НАС*/
+/*MEDIA-ЗАПРОС ДЛЯ КАРТЫ*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.mapTD { width: 200px; }}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.mapTD { width: 300px; }}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+.mapTD { width: 500px; }}
+
+/*MEDIA-ЗАПРОС ДЛЯ ФОТО ЗДАНИЯ*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.infoAddressImg {
+width: 200px; 
+height: 150px;
+margin-right: 100px; }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.infoAddressImg {
+width: 350px; 
+height: 250px;
+margin-right: 100px; }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+.infoAddressImg {
+width: 450px; 
+height: 300px;
+margin-right: 100px; }
+}
+
+/*СТРАНИЦА ТОВАРЫ*/ /*СТРАНИЦА ДОСТАВКА И КУРСЫ*/
+/*MEDIA-ЗАПРОС ДЛЯ ИКОНОК (доставка и курсы)*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.deliveryPartners img {width: 100px;}
+.masterClass img {width: 100px; height: 100px; padding: 10px;}
+.smola img {height: 300px;} /*использование смолы (курсы)*/
+.scheme img {width: 300px; height: 250px;} /*схемы плетения (курсы)*/
+
+/*АНИМИРОВАННЫЙ СЛАЙДЕР*/
+.container_slider img {
+width: 450px;
+height: 350px;
+margin-left: 25%;
+}
+
+.container_slider {
+top: 20px;
+right: 80px;
+position: absolute;
+}}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.deliveryPartners img {width: 150px;}
+.masterClass img {width: 130px; height: 130px; padding: 10px;}
+.smola img {height: 400px;}
+.scheme img {width: 350px; height: 300px;}
+
+.container_slider img {
+width: 550px;
+height: 370px;
+margin-left: 20%;
+}
+
+.container_slider {
+top: 15px;
+right: 80px;
+position: absolute;
+}}
+
+@media screen and (min-width: 1001px) and (max-width: 1390px) {
+.masterClass img {width: 150px; height: 150px; padding: 20px;}
+.smola img {height: 500px;}
+.scheme img {width: 450px; height: 400px;}
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.login-form .group .label,.login-form .group .input,.login-form .group .button {
+width: 100px;
+height: 50px;
+}}
+
+/*СТРАНИЦА ПРОФИЛЬ*/
+@media screen and (min-width: 200px) and (max-width: 800px) {
+.login-form .group .label,.login-form .group .input,.login-form .group .button {
+max-width: 400px;
+min-height: 30px;
+margin: 0 auto;
+}  
+
+.profile_catalog {
+width: 200px;
+height: 100px; 
+font-size: 16px;   
+}
+
+.user_profile_table p {
+font-size: 16px;   
+}
+
+.user_img {
+width: 100px;
+height: 100px;
+}
+
+.basket_img {
+width: 80px;
+height: 80px;     
+}
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+.profile_catalog {
+width: 220px;
+height: 100px; 
+font-size: 17px;   
+}
+
+.user_profile_table p {
+font-size: 16px;   
+}
+
+.user_img {
+width: 150px;
+height: 150px;
+}
+
+.basket_img {
+width: 90px;
+height: 90px;     
+}}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+.profile_catalog {
+width: 300px;
+height: 50px; 
+font-size: 18px;   
+}
+}

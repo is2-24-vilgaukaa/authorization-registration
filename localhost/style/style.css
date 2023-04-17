@@ -1,0 +1,406 @@
+/*ГЛАВНАЯ СТРАНИЦА*/
+/*добавление фонового изображения*/
+body {
+background: url(../picture/fon.jpg);
+background-size: 100%;
+overflow-x: hidden;
+}
+
+/*шрифт*/
+span, p {
+font-family: 'El Messiri', sans-serif;    
+}
+
+/*выравнивание блока "шапка" по центру*/
+.head {
+text-align: center;
+}
+
+/*навигационное меню (ссылки)*/
+.head a {
+color: #ffc400;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase; 
+text-align: right;
+padding: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*смена цвета при наведении на ссылку*/
+.head a:hover {
+color:#7a83ff;
+}
+
+/*размер логотипа*/
+.sk {
+width: 200px;
+height: 80px;  
+}
+
+/*задний фон для поисковой строки*/
+.search {
+background-color: #342680;
+height: 70px;
+text-align: right;
+}
+
+/*ссылка на кнопке*/
+.search a {
+color: #ffffff;
+text-decoration: none;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*стиль кнопки "введите запрос"*/
+.searchInput {
+width: 400px;
+height: 30px;
+border-radius: 5px;
+margin-left: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*стиль для кнопки поиска*/
+.searchBut {
+width: 150px;
+height: 30px;   
+border-radius: 5px;
+background-color: #7a83ff;
+border-color: #ffffff;
+font-family: 'El Messiri', sans-serif;
+margin-right: 30px;
+}
+
+/*смена цвета при наведении на кнопку*/
+.searchBut:hover {
+background-color: #342680;
+}
+
+/*блок "категории" (выравнивание по центру)*/
+.divCatalog {
+width: 100%;
+text-align: center;
+}
+
+/*категории (заголовок)*/
+.catalogSpan {
+color: #ffc400;
+font-size: 30px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*4 категории (серьги, ожерелья, диадемы, кольца)*/
+.catalog {
+background: #7a83ff;
+width: 200px;
+height: 60px;
+text-align: center;
+display: inline-block;
+color: #ffffff;
+border-color: #ffffff;
+margin-top: 30px;
+margin-left: 30px;
+font-family: 'El Messiri', sans-serif;
+font-size: 20px;
+}
+
+/*смена цвета при наведении*/
+.catalog:hover {
+background-color: #ffdd6e;
+}
+
+/*задний фон инфо-ого блока*/
+.infoDiv {
+background-color: #7a83ff85;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*выравнивание инфо-ого блока*/
+.infoTable {
+width: 100%;
+text-align: center;
+}
+
+/*отступ слева*/
+.inf {
+width: 10%;
+}
+  
+/*ширина ячеек таблицы*/
+.info {
+width: 500px;
+}
+
+/*заголовок инфо-ого блока*/
+.infoH1 {
+color: #ffffff; 
+font-family: 'El Messiri', sans-serif;   
+}
+
+/*размер текста*/
+.infoP, .stocksSpan {
+font-family: 'El Messiri', sans-serif;  
+font-size: 18px;    
+}
+
+/*выравнивание блока акции по центру*/
+.stocks {
+text-align: center;
+}
+
+/*размер фото в блоке акции*/
+.stocks img {
+width: 400px;
+padding: 10px;
+border-radius: 20px;
+}
+
+.stocksTable {
+width: 100%;
+text-align: center;
+}
+
+/*стиль для блока промокод*/
+.promo {
+background-color: #342680;   
+text-align: center;
+height: 90px;
+}
+
+/*стиль для кнопки (получить промокод)*/
+.promoBtn {
+background-color: #7a83ff;
+border-color: #ffffff;
+color: white;
+font-size: 30px;
+width: 500px;
+font-family: 'El Messiri', sans-serif;   
+}
+
+/*"подвал"*/
+.footer {
+text-align: center;
+background-color: #7a83ff85;
+}
+
+/*ссылки в "подвале"*/
+.footer a {
+color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase; 
+text-align: right;
+padding: 10px;
+font-family: 'El Messiri', sans-serif;
+}
+
+/*размер иконок в "подвале"*/
+.icon {
+width: 20px;
+height: 20px;
+margin-left: 10px;
+}
+
+/*СТИЛЬ ДЛЯ СТРАНИЦЫ "О НАС"*/
+/*размер изображения*/
+.infoAddressImg {
+width: 500px;
+height: 300px;
+border-radius: 20px;    
+}
+
+/*синий фон для заголовков*/
+.bluefon {
+background-color: #342680;
+text-align: center; 
+height: 80px;
+}
+
+/*заголовок в синем фоне*/
+.bf {
+font-size: 30px;
+font-family: 'El Messiri', sans-serif;
+color: white;
+}
+
+/*таблица MAP (карта)*/
+.mapTable {
+text-align: center;
+width: 100%;
+margin-left: 50px;
+}
+
+/*контейнер для карты*/
+.mapTD {
+width: 800px;
+}
+
+.collection {
+background: linear-gradient(#06021b, #342680, #06021b);
+font-family: 'El Messiri', sans-serif;    
+}
+
+.plusDiv {
+font-family: 'El Messiri', sans-serif;
+text-align: center; 
+}
+
+.plusImg {
+width: 350px;  
+height: 250px;
+padding: 10px;
+}
+
+.plusH1 {
+font-family: 'El Messiri', sans-serif;  
+color: #342680;
+}
+
+/*СТРАНИЦА ДОСТАВКА*/
+/*выравнивание по центру*/
+.deliveryPartners, .center {
+text-align: center;
+}
+
+/*размер изображений (доставка)*/
+.deliveryPartners img {
+padding: 20px;
+width: 200px;
+}
+
+.priceTable {
+width: 100%;
+text-align: center;
+height: 250px;
+}
+
+.priceTRcolor1 {
+background-color: #342680;
+color: white; 
+}
+
+.priceTRcolor2 {
+background-color: rgb(152, 157, 253);
+color: white; 
+}
+
+.priceTRcolor3 {
+background-color: #babeffff;
+color: white; 
+}
+
+.deliveryP {
+text-indent: 25px;
+font-size: 20px;
+text-align: justify;
+}
+
+/*СТРАНИЦА КУРСЫ*/
+
+.masterClassTable {
+width: 100%;
+text-align: center;
+}
+
+.masterClass img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+padding: 10px;
+}
+
+.masterClass img:hover {
+background-color: #ffdd6e;
+}
+
+.masterClass span, .recordCourse p {
+font-family: 'El Messiri', sans-serif;   
+font-size: 18px;
+}
+
+.scheme img {
+width: 650px;
+height: 500px;   
+padding: 10px;
+border-radius: 20px;
+}
+
+.smola img {
+height: 600px; 
+border-radius: 70px;     
+padding: 40px;
+}
+
+.smola {
+background-color: #7a83ff85; 
+}
+
+.courseInput {
+width: 500px;
+height: 40px;
+border-radius: 10px;
+margin: 10px;
+border: none;
+font-size: 16px;
+font-family: 'El Messiri', sans-serif;   
+}
+
+.recordCourse {
+padding: 20px;
+background-color: #ffdd6ea4;
+}
+
+.courseButton {
+width: 300px;
+height: 40px;
+margin-top: 10px;
+border-radius: 10px;
+font-size: 16px;
+border-color: #ffffff;
+background-color: #fff5d4;
+font-family: 'El Messiri', sans-serif;  
+}
+
+.titleStyleBD {
+font-family: 'El Messiri', sans-serif;     
+font-size: 20px;
+}
+
+.user_profile_table {
+width: 100%;
+}
+
+.user_img {
+width: 200px;
+height: 200px;
+border-radius: 50%;    
+}
+
+.profile_catalog {
+background: #7a83ff;
+width: 400px;
+height: 50px;
+text-align: center;
+margin: 10px;
+color: #ffffff;
+border-color: #ffffff;
+font-family: 'El Messiri', sans-serif;
+font-size: 20px;
+}
+
+/*смена цвета при наведении*/
+.profile_catalog:hover {
+background-color: #ffdd6e;
+}
+
+.user_profile_table p {
+font-size: 20px;
+font-family: 'El Messiri', sans-serif;     
+}
+
+.basket_img {
+width: 100px;
+height: 100px;
+border-radius: 50%;      
+}
